@@ -1,0 +1,381 @@
+2025-08-20T09:57:39.103+03:00  INFO 15168 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Starting StudentsprojectApplication using Java 17.0.16 with PID 15168 (C:\Users\DELL\Desktop\Students\studentsproject\target\classes started by DELL in C:\Users\DELL\Desktop\Students\studentsproject)
+2025-08-20T09:57:39.127+03:00  INFO 15168 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-20T09:57:41.372+03:00  INFO 15168 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T09:57:41.530+03:00  INFO 15168 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2025-08-20T09:57:42.875+03:00  INFO 15168 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T09:57:42.948+03:00  INFO 15168 --- [studentsproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T09:57:42.966+03:00  INFO 15168 --- [studentsproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T09:57:43.495+03:00  INFO 15168 --- [studentsproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T09:57:43.531+03:00  INFO 15168 --- [studentsproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4171 ms
+2025-08-20T09:57:44.358+03:00  INFO 15168 --- [studentsproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T09:57:44.685+03:00  INFO 15168 --- [studentsproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T09:57:44.862+03:00  INFO 15168 --- [studentsproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T09:57:45.970+03:00  INFO 15168 --- [studentsproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T09:57:46.127+03:00  INFO 15168 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T09:57:46.889+03:00  INFO 15168 --- [studentsproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39ace1a7
+2025-08-20T09:57:46.912+03:00  INFO 15168 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T09:57:47.098+03:00  WARN 15168 --- [studentsproject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T09:57:47.198+03:00  INFO 15168 --- [studentsproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T09:57:50.672+03:00  INFO 15168 --- [studentsproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T09:57:50.842+03:00  INFO 15168 --- [studentsproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T09:57:51.930+03:00  WARN 15168 --- [studentsproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T09:57:53.374+03:00  INFO 15168 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T09:57:53.390+03:00  INFO 15168 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Started StudentsprojectApplication in 16.377 seconds (process running for 17.447)
+2025-08-20T10:04:22.963+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T10:04:22.965+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T10:04:22.976+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-08-20T10:04:24.286+03:00  WARN 15168 --- [studentsproject] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-08-20T12:35:21.807+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-9] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T12:35:21.821+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-9] c.s.studentsproject.util.TimeUtil        : Number of students processed: 10
+2025-08-20T12:35:21.821+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-9] c.s.studentsproject.util.TimeUtil        : Duration: 0.082 seconds
+2025-08-20T12:35:21.824+03:00  INFO 15168 --- [studentsproject] [http-nio-8080-exec-9] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T12:35:53.245+03:00  INFO 15168 --- [studentsproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T12:35:54.271+03:00  INFO 15168 --- [studentsproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T12:35:54.286+03:00  INFO 15168 --- [studentsproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T12:35:54.334+03:00  INFO 15168 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T12:35:54.354+03:00  INFO 15168 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T12:36:15.576+03:00  INFO 14068 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Starting StudentsprojectApplication using Java 17.0.16 with PID 14068 (C:\Users\DELL\Desktop\Students\studentsproject\target\classes started by DELL in C:\Users\DELL\Desktop\Students\studentsproject)
+2025-08-20T12:36:15.614+03:00  INFO 14068 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-20T12:36:17.394+03:00  INFO 14068 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T12:36:17.542+03:00  INFO 14068 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2025-08-20T12:36:18.829+03:00  INFO 14068 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T12:36:18.870+03:00  INFO 14068 --- [studentsproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T12:36:18.871+03:00  INFO 14068 --- [studentsproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T12:36:18.991+03:00  INFO 14068 --- [studentsproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T12:36:18.991+03:00  INFO 14068 --- [studentsproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3155 ms
+2025-08-20T12:36:19.333+03:00  INFO 14068 --- [studentsproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T12:36:19.488+03:00  INFO 14068 --- [studentsproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T12:36:19.577+03:00  INFO 14068 --- [studentsproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T12:36:20.259+03:00  INFO 14068 --- [studentsproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T12:36:20.326+03:00  INFO 14068 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T12:36:20.799+03:00  INFO 14068 --- [studentsproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@211a9647
+2025-08-20T12:36:20.799+03:00  INFO 14068 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T12:36:20.926+03:00  WARN 14068 --- [studentsproject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T12:36:21.025+03:00  INFO 14068 --- [studentsproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T12:36:24.100+03:00  INFO 14068 --- [studentsproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T12:36:24.254+03:00  INFO 14068 --- [studentsproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T12:36:25.122+03:00  WARN 14068 --- [studentsproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T12:36:26.098+03:00  INFO 14068 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T12:36:26.120+03:00  INFO 14068 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Started StudentsprojectApplication in 12.634 seconds (process running for 13.616)
+2025-08-20T12:36:32.853+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T12:36:32.853+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T12:36:32.853+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-20T12:36:33.432+03:00  WARN 14068 --- [studentsproject] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-08-20T12:37:22.218+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-3] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T12:37:22.233+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-3] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000
+2025-08-20T12:37:22.233+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-3] c.s.studentsproject.util.TimeUtil        : Duration: 0.047 seconds
+2025-08-20T12:37:22.233+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-3] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T12:42:42.660+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T12:42:42.661+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T12:42:42.662+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration: 13.395 seconds
+2025-08-20T12:42:42.662+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T14:32:33.021+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-5] c.s.studentsproject.util.TimeUtil        : Task: Excel Generation
+2025-08-20T14:32:33.021+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-5] c.s.studentsproject.util.TimeUtil        : Number of students processed: 5
+2025-08-20T14:32:33.021+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-5] c.s.studentsproject.util.TimeUtil        : Duration: 2.198 seconds
+2025-08-20T14:32:33.037+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-5] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T14:32:53.387+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-6] c.s.studentsproject.util.TimeUtil        : Task: Excel to CSV conversion
+2025-08-20T14:32:53.387+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-6] c.s.studentsproject.util.TimeUtil        : Number of students processed: 5
+2025-08-20T14:32:53.402+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-6] c.s.studentsproject.util.TimeUtil        : Duration: 0.074 seconds
+2025-08-20T14:32:53.402+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-6] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T14:33:10.776+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-7] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T14:33:10.776+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-7] c.s.studentsproject.util.TimeUtil        : Number of students processed: 5
+2025-08-20T14:33:10.776+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-7] c.s.studentsproject.util.TimeUtil        : Duration: 0.049 seconds
+2025-08-20T14:33:10.776+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-7] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T14:39:28.167+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Task: Excel Generation
+2025-08-20T14:39:28.167+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T14:39:28.167+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Duration: 45.974 seconds
+2025-08-20T14:39:28.167+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 1 minutes (for report)
+2025-08-20T14:47:42.855+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Task: Excel to CSV conversion
+2025-08-20T14:47:42.855+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T14:47:42.855+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration: 160.299 seconds
+2025-08-20T14:47:42.855+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 3 minutes (for report)
+2025-08-20T14:53:13.807+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T14:53:13.807+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T14:53:13.807+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Duration: 14.763 seconds
+2025-08-20T14:53:13.807+03:00  INFO 14068 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T15:12:07.541+03:00 ERROR 14068 --- [studentsproject] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.OutOfMemoryError: Java heap space] with root cause
+
+java.lang.OutOfMemoryError: Java heap space
+	at com.lowagie.text.pdf.PdfPCell.<init>(PdfPCell.java:71) ~[openpdf-1.3.39.jar:na]
+	at com.lowagie.text.pdf.PdfPTable.addCell(PdfPTable.java:458) ~[openpdf-1.3.39.jar:na]
+	at com.lowagie.text.pdf.PdfPTable.addCell(PdfPTable.java:626) ~[openpdf-1.3.39.jar:na]
+	at com.lowagie.text.pdf.PdfPTable.addCell(PdfPTable.java:593) ~[openpdf-1.3.39.jar:na]
+	at com.students.studentsproject.service.ExportService.exportToPdf(ExportService.java:74) ~[classes/:na]
+	at com.students.studentsproject.controller.StudentReportController.exportPdf(StudentReportController.java:72) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+
+2025-08-20T15:12:25.525+03:00 ERROR 14068 --- [studentsproject] [Catalina-utility-2] org.apache.catalina.core.ContainerBase   : Exception processing background thread
+
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.threadStart(ContainerBase.java:1097) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessorMonitor.run(ContainerBase.java:1141) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:107) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	... 7 common frames omitted
+
+2025-08-20T15:13:29.608+03:00  WARN 14068 --- [studentsproject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s497ms363µs).
+2025-08-20T15:13:31.082+03:00 ERROR 14068 --- [studentsproject] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.OutOfMemoryError: Java heap space] with root cause
+
+java.lang.OutOfMemoryError: Java heap space
+
+2025-08-20T15:14:59.115+03:00 ERROR 14068 --- [studentsproject] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.OutOfMemoryError: Java heap space] with root cause
+
+java.lang.OutOfMemoryError: Java heap space
+
+2025-08-20T15:15:03.495+03:00  INFO 14068 --- [studentsproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T15:15:06.380+03:00  INFO 14068 --- [studentsproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T15:15:07.504+03:00  INFO 14068 --- [studentsproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T15:15:07.520+03:00  INFO 14068 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T15:15:07.566+03:00  INFO 14068 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T15:15:55.380+03:00  INFO 8372 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Starting StudentsprojectApplication using Java 17.0.16 with PID 8372 (C:\Users\DELL\Desktop\Students\studentsproject\target\classes started by DELL in C:\Users\DELL\Desktop\Students\studentsproject)
+2025-08-20T15:15:55.396+03:00  INFO 8372 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-20T15:15:57.077+03:00  INFO 8372 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T15:15:57.223+03:00  INFO 8372 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2025-08-20T15:15:58.888+03:00  INFO 8372 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T15:15:58.939+03:00  INFO 8372 --- [studentsproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T15:15:58.939+03:00  INFO 8372 --- [studentsproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T15:15:59.141+03:00  INFO 8372 --- [studentsproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T15:15:59.141+03:00  INFO 8372 --- [studentsproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3583 ms
+2025-08-20T15:15:59.735+03:00  INFO 8372 --- [studentsproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T15:15:59.888+03:00  INFO 8372 --- [studentsproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T15:15:59.980+03:00  INFO 8372 --- [studentsproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T15:16:00.706+03:00  INFO 8372 --- [studentsproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T15:16:00.781+03:00  INFO 8372 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T15:16:01.205+03:00  INFO 8372 --- [studentsproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67eeb310
+2025-08-20T15:16:01.221+03:00  INFO 8372 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T15:16:01.331+03:00  WARN 8372 --- [studentsproject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T15:16:01.406+03:00  INFO 8372 --- [studentsproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T15:16:03.601+03:00  INFO 8372 --- [studentsproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T15:16:03.784+03:00  INFO 8372 --- [studentsproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T15:16:04.661+03:00  WARN 8372 --- [studentsproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T15:16:05.379+03:00  INFO 8372 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T15:16:05.403+03:00  INFO 8372 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Started StudentsprojectApplication in 11.901 seconds (process running for 13.351)
+2025-08-20T15:16:10.323+03:00  INFO 8372 --- [studentsproject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T15:16:10.323+03:00  INFO 8372 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T15:16:10.323+03:00  INFO 8372 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-20T15:21:01.585+03:00  WARN 8372 --- [studentsproject] [http-nio-8080-exec-5] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-08-20T15:31:36.424+03:00  WARN 8372 --- [studentsproject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s751ms506µs100ns).
+2025-08-20T15:31:36.445+03:00 ERROR 8372 --- [studentsproject] [Catalina-utility-2] org.apache.catalina.core.ContainerBase   : Exception processing background thread
+
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.threadStart(ContainerBase.java:1097) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessorMonitor.run(ContainerBase.java:1141) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2025-08-20T15:31:36.776+03:00 ERROR 8372 --- [studentsproject] [Catalina-utility-2] o.a.coyote.http11.Http11NioProtocol      : Error processing async timeouts
+
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[na:na]
+	at org.apache.coyote.AbstractProtocol.startAsyncTimeout(AbstractProtocol.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4635) ~[na:na]
+	at org.apache.coyote.AbstractProtocol.lambda$startAsyncTimeout$0(AbstractProtocol.java:665) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$$Lambda$1499/0x000001ae01836000.run(Unknown Source) ~[na:na]
+	... 7 common frames omitted
+
+2025-08-20T15:31:36.424+03:00 ERROR 8372 --- [studentsproject] [Catalina-utility-1] o.apache.catalina.core.StandardServer    : Error sending periodic event
+
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[na:na]
+	at org.apache.catalina.core.StandardServer.startPeriodicLifecycleEvent(StandardServer.java:885) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2025-08-20T15:31:36.884+03:00 ERROR 8372 --- [studentsproject] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.OutOfMemoryError: Java heap space] with root cause
+
+java.lang.OutOfMemoryError: Java heap space
+	at org.apache.xmlbeans.impl.store.Saver$TextSaver.resize(Saver.java:1587) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver$TextSaver.preEmit(Saver.java:1219) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver$TextSaver.emit(Saver.java:1116) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver$TextSaver.emitElement(Saver.java:895) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver.processElement(Saver.java:463) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver.process(Saver.java:293) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Saver$TextSaver.saveToString(Saver.java:1749) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Cursor._xmlText(Cursor.java:536) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Cursor.lambda$xmlText$11(Cursor.java:1983) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Cursor$$Lambda$1777/0x000001ae019efa88.get(Unknown Source) ~[na:na]
+	at org.apache.xmlbeans.impl.store.Cursor.syncWrapHelper(Cursor.java:2530) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Cursor.syncWrap(Cursor.java:2461) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.store.Cursor.xmlText(Cursor.java:1983) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.xmlbeans.impl.values.XmlObjectBase.xmlText(XmlObjectBase.java:1447) ~[xmlbeans-5.2.0.jar:na]
+	at org.apache.poi.xssf.model.SharedStringsTable.xmlText(SharedStringsTable.java:141) ~[poi-ooxml-5.2.5.jar:5.2.5]
+	at org.apache.poi.xssf.model.SharedStringsTable.addEntry(SharedStringsTable.java:191) ~[poi-ooxml-5.2.5.jar:5.2.5]
+	at org.apache.poi.xssf.model.SharedStringsTable.addSharedStringItem(SharedStringsTable.java:223) ~[poi-ooxml-5.2.5.jar:5.2.5]
+	at org.apache.poi.xssf.usermodel.XSSFCell.setCellValueImpl(XSSFCell.java:370) ~[poi-ooxml-5.2.5.jar:5.2.5]
+	at org.apache.poi.xssf.usermodel.XSSFCell.setCellValueImpl(XSSFCell.java:353) ~[poi-ooxml-5.2.5.jar:5.2.5]
+	at org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:275) ~[poi-5.2.5.jar:5.2.5]
+	at com.students.studentsproject.service.ExportService.exportToExcel(ExportService.java:38) ~[classes/:na]
+	at com.students.studentsproject.controller.StudentReportController.exportExcel(StudentReportController.java:66) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+
+2025-08-20T15:39:40.513+03:00 ERROR 8372 --- [studentsproject] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.OutOfMemoryError: Java heap space] with root cause
+
+java.lang.OutOfMemoryError: Java heap space
+
+2025-08-20T15:46:19.976+03:00  INFO 8372 --- [studentsproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T15:46:22.051+03:00  INFO 8372 --- [studentsproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T15:46:22.070+03:00  INFO 8372 --- [studentsproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T15:46:22.089+03:00  INFO 8372 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T15:46:22.118+03:00  INFO 8372 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-20T16:21:45.100+03:00  INFO 17464 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Starting StudentsprojectApplication using Java 17.0.16 with PID 17464 (C:\Users\DELL\Desktop\Students\studentsproject\target\classes started by DELL in C:\Users\DELL\Desktop\Students\studentsproject)
+2025-08-20T16:21:45.100+03:00  INFO 17464 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-20T16:21:46.740+03:00  INFO 17464 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-20T16:21:46.919+03:00  INFO 17464 --- [studentsproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2025-08-20T16:21:48.238+03:00  INFO 17464 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-20T16:21:48.272+03:00  INFO 17464 --- [studentsproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-20T16:21:48.275+03:00  INFO 17464 --- [studentsproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-20T16:21:48.408+03:00  INFO 17464 --- [studentsproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-20T16:21:48.409+03:00  INFO 17464 --- [studentsproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3203 ms
+2025-08-20T16:21:48.699+03:00  INFO 17464 --- [studentsproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-20T16:21:48.836+03:00  INFO 17464 --- [studentsproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-20T16:21:48.911+03:00  INFO 17464 --- [studentsproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-20T16:21:49.656+03:00  INFO 17464 --- [studentsproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-20T16:21:49.748+03:00  INFO 17464 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-20T16:21:50.187+03:00  INFO 17464 --- [studentsproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60a01cb
+2025-08-20T16:21:50.187+03:00  INFO 17464 --- [studentsproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-20T16:21:50.284+03:00  WARN 17464 --- [studentsproject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-20T16:21:50.326+03:00  INFO 17464 --- [studentsproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-20T16:21:52.438+03:00  INFO 17464 --- [studentsproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-20T16:21:52.586+03:00  INFO 17464 --- [studentsproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T16:21:53.142+03:00  WARN 17464 --- [studentsproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-20T16:21:53.730+03:00  INFO 17464 --- [studentsproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-20T16:21:53.759+03:00  INFO 17464 --- [studentsproject] [main] c.s.s.StudentsprojectApplication         : Started StudentsprojectApplication in 9.748 seconds (process running for 10.638)
+2025-08-20T16:22:03.105+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-20T16:22:03.105+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-20T16:22:03.105+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-20T16:22:03.735+03:00  WARN 17464 --- [studentsproject] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-08-20T16:32:52.807+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Task: Excel Generation
+2025-08-20T16:32:52.808+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000
+2025-08-20T16:32:52.810+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration: 0.078 seconds
+2025-08-20T16:32:52.811+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T16:33:01.658+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Task: Excel Generation
+2025-08-20T16:33:01.658+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Number of students processed: 0
+2025-08-20T16:33:01.658+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Duration: 0.028 seconds
+2025-08-20T16:33:01.658+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-4] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T16:42:17.764+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-8] c.s.studentsproject.util.TimeUtil        : Task: Excel Generation
+2025-08-20T16:42:17.764+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-8] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T16:42:17.764+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-8] c.s.studentsproject.util.TimeUtil        : Duration: 35.117 seconds
+2025-08-20T16:42:17.764+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-8] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 1 minutes (for report)
+2025-08-20T16:48:34.513+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Task: Excel to CSV conversion
+2025-08-20T16:48:34.513+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T16:48:34.513+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Duration: 101.172 seconds
+2025-08-20T16:48:34.513+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-10] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 2 minutes (for report)
+2025-08-20T16:55:51.493+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Task: CSV Upload
+2025-08-20T16:55:51.493+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Number of students processed: 1000000
+2025-08-20T16:55:51.493+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration: 10.177 seconds
+2025-08-20T16:55:51.493+03:00  INFO 17464 --- [studentsproject] [http-nio-8080-exec-2] c.s.studentsproject.util.TimeUtil        : Duration (rounded): 0 minutes (for report)
+2025-08-20T17:19:02.608+03:00  INFO 17464 --- [studentsproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-20T17:19:04.159+03:00  INFO 17464 --- [studentsproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-20T17:19:04.208+03:00  INFO 17464 --- [studentsproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-20T17:19:04.298+03:00  INFO 17464 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-20T17:19:04.340+03:00  INFO 17464 --- [studentsproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
